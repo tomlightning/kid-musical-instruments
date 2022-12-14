@@ -1,12 +1,11 @@
 var GHPATH = "/kid-musical-instruments";
 var APP_PREFIX = "music_instru_";
-var VERSION = "version_001";
+var VERSION = "version_002";
 var URLS = [
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
   `${GHPATH}/css/styles.css`,
   `${GHPATH}/img/icon.jpg`,
-  `${GHPATH}/js/app.js`,
   `${GHPATH}/media/accordion.mp3`,
   `${GHPATH}/media/contrabass.mp3`,
   `${GHPATH}/media/cymbal.mp3`,
