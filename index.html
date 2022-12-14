@@ -42,7 +42,9 @@ function playSound(type){
     var audio = document.getElementById(isPlaying);
     audio.pause();
   }
-
+  if (isPlaying == type) {
+    isPlaying = false;
+  } else {
 
     isPlaying = type;
     var audio = document.getElementById(type);
