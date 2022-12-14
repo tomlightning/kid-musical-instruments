@@ -5,7 +5,7 @@ var URLS = [
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
   `${GHPATH}/css/styles.css`,
-  `${GHPATH}/img/icon.png`,
+  `${GHPATH}/img/icon.jpg`,
   `${GHPATH}/js/app.js`,
   `${GHPATH}/media/accordion.mp3`,
   `${GHPATH}/media/contrabass.mp3`,

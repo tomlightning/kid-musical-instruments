@@ -9,9 +9,9 @@
   "display": "standalone", 
   "icons": [
       {
-        "src": "/kid-musical-instruments/img/icon.png",
-        "type": "image/png",
-        "sizes": "700x700"
+        "src": "/kid-musical-instruments/img/icon.jpg",
+        "type": "image/jpeg",
+        "sizes": "768x768"
       }
   ]
 }
