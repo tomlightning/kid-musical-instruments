@@ -4,25 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitHub page as PWA template</title>
-  <link rel="canonical" href="https://codepo8.github.io/github-page-pwa/" />
+  <link rel="canonical" href="https://tomlightning.github.io/kid-musical-instruments/" />
   <link rel="manifest" href="/github-page-pwa/manifest.webmanifest">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
- 
-  <h1>GitHub page as PWA template</h1>
+  <audio id="accordion" src="media/accordion.mp3"></audio>
+  <audio id="contrabass" src="media/contrabass.mp3"></audio>
+  <audio id="cymbal" src="media/cymbal.mp3"></audio>
+  <audio id="drums" src="media/drums.mp3"></audio>
+  <audio id="flute" src="media/flute.mp3"></audio>
+  <audio id="guitar" src="media/guitar.mp3"></audio>
+  <audio id="piano" src="media/piano.mp3"></audio>
+  <audio id="trumpet" src="media/trumpet.mp3"></audio>
+  <audio id="violin" src="media/violin.mp3"></audio>
+
+
+  <h1>תזמורת מפלצות הקצב</h1>
   <p>
-    This is a PWA template for GitHub pages. 
-    Make sure to check the README at 
-    <a href="https://github.com/codepo8/github-page-pwa/">https://github.com/codepo8/github-page-pwa/</a> and 
-    to change the necessary settings to your needs.
+
+    <button onclick="document.getElementById('guitar').play();">גטרה</button>
+    <button onclick="document.getElementById('drums').play();">תוף</button>
+    <button onclick="document.getElementById('piano').play();">פסנתר</button>
+    <button onclick="document.getElementById('trumpet').play();">חצוצרה</button>
+    <button onclick="document.getElementById('violin').play();">כינור</button>
+    <button onclick="document.getElementById('cymbal').play();">מצילתיים</button>
+    <button onclick="document.getElementById('accordion').play();">אקורדיון</button>
+    <button onclick="document.getElementById('flute').play();">חליל</button>
+    <button onclick="document.getElementById('contrabass').play();">קונטרה בס</button>
   </p>
 
   <script>
       if (navigator.serviceWorker) {
         navigator.serviceWorker.register (
-          '/github-page-pwa/sw.js',
-          {scope: '/github-page-pwa/'}
+          '/kid-musical-instruments/sw.js',
+          {scope: '/kid-musical-instruments/'}
         )
       }
   </script>
